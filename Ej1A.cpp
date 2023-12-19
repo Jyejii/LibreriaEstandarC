@@ -4,7 +4,7 @@
 int main() {
     int num;
 
-    printf("Ingresa un número entero: ");
+    printf("Ingresa un numero entero: ");
     scanf("%d", &num);
     
     int abs_num = abs(num);
