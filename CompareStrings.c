@@ -2,8 +2,12 @@
 #include <stdio.h>
 
 int main() {
-    char str1[] = "Hola";
-    char str2[] = "Mundo";
+    const char *str1 = "Hola";
+    const char *str2 = "Mundo";
+
+    printf("Comparando las cadenas:\n");
+    printf("Cadena 1: %s\n", str1);
+    printf("Cadena 2: %s\n", str2);
 
     int comparison = strcmp(str1, str2);
 
